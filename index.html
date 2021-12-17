@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full w-full font-poppins select-none">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7531e1819d.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="h-full w-full flex flex-col">
+
+    <header class="min-h-[120px] w-full border-b border-divider border-opacity-60 flex justify-between items-center bg-nav px-12">
+        <a href="#">
+            <img src="./images/logo.svg" alt="Logo">
+        </a>
+        <nav class="flex gap-4">
+            <a class="nav-item active" href="">Free designs</a>
+            <a class="nav-item" href="">Licence</a>
+            <a class="nav-item" href="">Articles</a>
+            <a class="nav-item" href="">Contributors</a>
+            <a class="nav-item" href="">About</a>
+        </nav>
+        <div class="flex items-center justify-center">
+            <a href="" class="h-[50px] w-[76px] text-main flex items-center justify-center rounded-[10px] font-medium">Log in</a>
+            <a href="" class="h-[54px] w-[120px] text-white bg-main flex items-center justify-center rounded-[10px] hover:shadow-md transition-shadow">Sign Up</a>
+        </div>
+    </header>
+
+    <section class="min-h-[428px] w-full bg-hero text-main mb-[40px]">
+        <a class="top-0 right-0 mt-[30px] ml-[50px] py-[8px] px-[17px] bg-white rounded-[10px] text-day inline-flex shadow-sm">Day 1384</a>
+        <div class="flex justify-center items-center flex-col gap-[15px] mt-[20px]">
+            <h1 class="font-bold text-[22px] text-center">Free UI resources for everyone</h1>
+            <p class="font-regular text-[18px] text-center leading-[27px] max-w-[580px] min-h-[54px]">The largest database of 100% free UI components and designs available in the formats popular by UI designers.</p>
+            <div class="flex mt-[30px] items-center justify-center">
+                <div class="bg-white font-medium text-sm text-black cursor-pointer flex items-center justify-center w-[150px] h-[60px] rounded-tl-[10px] rounded-bl-[10px] shadow-md">
+                    Free designs
+                    <i class="fas fa-chevron-down ml-[10px] text-main"></i>
+                </div>
+                <div class="h-[24px] w-[1px] bg-divider"></div>
+                <form action="post" class="h-[60px] w-[470px] bg-white shadow-md flex items-center justify-center rounded-tr-[10px] rounded-br-[10px]">
+                    <i class="fas fa-search mr-[15px] text-2xl opacity-50 drop-shadow-lg"></i>
+                    <input type="text" class="h-[48px] min-w-[385px] outline-none" placeholder="Search">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="flex justify-between items-center px-[50px] mb-[50px]">
+        <div class="h-[44px] min-w-[352px] flex items-center justify-center">
+            <input type="checkbox" class="hidden" id="search-type" checked>
+            <label class="h-[65px] w-[236px] border border-checkbox_border bg-checkbox rounded-[50px] flex items-center justify-center relative z-[1] cursor-pointer before:rounded-[40px] before:content-[''] before:h-[51px] before:w-[117px] before:absolute before:top-[5px] before:left-[5px] before:bg-white before:z-[-1] before:shadow-md before:transition-all" for="search-type">
+                <span class="h-[51px] w-[107px] grid place-items-center transition-all">Latest</span>
+                <span class="h-[51px] w-[107px] grid place-items-center opacity-70 transition-all">Popular</span>
+            </label>
+        </div>
+
+        <nav class="flex gap-3">
+            <a class="hero-nav-item active" href="">All</a>
+            <a class="hero-nav-item" href="">Web</a>
+            <a class="hero-nav-item" href="">Mobile</a>
+            <a class="hero-nav-item" href="">UI Kit</a>
+            <a class="hero-nav-item" href="">Coded</a>
+        </nav>
+
+        <div class="flex gap-[15px]">
+            <a href="" class="search-nav-item">
+                <img src="./images/figma.svg" alt="Figma">
+            </a>
+            <a href="" class="active search-nav-item">
+                <img src="./images/sketch.svg" alt="Sketch">
+            </a>
+            <a href="" class="search-nav-item">
+                <img src="./images/studio.svg" alt="Studio">
+            </a>
+            <a href="" class="search-nav-item">
+                <img src="./images/adobe-xd.svg" alt="Adobe XD">
+            </a>
+            <a href="" class="search-nav-item">
+                <img src="./images/adobe-ps.svg" alt="Adobe Photoshop">
+            </a>
+        </div>
+    </div>
+
+    <div class="flex justify-between items-center px-[50px] pb-[60px]">
+        <div class="h-[319px] w-[425px] cursor-pointer rounded-[15px] transition-all duration-300 ease-out hover:scale-[1.02] hover:shadow-md">
+            <img class="shadow-sm p-[16px] rounded-full bg-card_item border border-card_item_border absolute mt-5 ml-5" src="./images/sketch.svg" alt="">
+            <img class="" src="./images/product-1.svg" alt="Product 1">
+        </div>
+        <div class="h-[319px] w-[425px] cursor-pointer rounded-[15px] transition-all duration-300 ease-out hover:scale-[1.02] hover:shadow-md">
+            <img class="shadow-sm p-[16px] rounded-full bg-card_item border border-card_item_border absolute mt-5 ml-5" src="./images/sketch.svg" alt="">
+            <img class="" src="./images/product-2.svg" alt="Product 2">
+        </div>
+        <div class="h-[319px] w-[425px] cursor-pointer rounded-[15px] transition-all duration-300 ease-out hover:scale-[1.02] hover:shadow-md">
+            <img class="shadow-sm p-[16px] rounded-full bg-card_item border border-card_item_border absolute mt-5 ml-5" src="./images/sketch.svg" alt="">
+            <img class="" src="./images/product-3.svg" alt="Product 3">
+        </div>
+    </div>
+</body>
+</html>
